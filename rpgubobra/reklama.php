@@ -1,0 +1,1 @@
+<div id="reklama"><!--wycieta reklama od spolecznosci--></div>

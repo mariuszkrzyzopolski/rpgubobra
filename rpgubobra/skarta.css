@@ -1,0 +1,56 @@
+#charakter
+{
+	float: left;
+}
+#cechy
+{
+	clear: both;
+	float: left;
+}
+li>input[type=text]
+{
+	float: left;
+width: 630px;
+}
+li
+{
+	list-style-type: none;
+}
+div#cechy li
+{
+	text-align: right;
+	list-style-position: inside;
+}
+#przewagi
+{
+	margin-left: 40px;
+	float: left;
+}
+#bronie
+{
+	clear: both;
+}
+input
+{
+	border: 2px solid #2F4C55;
+}
+input[type="submit"]
+{
+	color: #9AB3B0;
+	border: 2px solid #5E9EB1;
+	background-color: #12171F;
+}
+input[type="submit"]:hover
+{
+	color: #12171F;
+	border: 2px solid #5E9EB1;
+	background-color: #9AB3B0;
+}
+#wyswietl
+{
+	padding-left: 200px;
+	text-align: center;
+	min-height: 500px;
+	widows: 400px;
+	margin: auto;
+}

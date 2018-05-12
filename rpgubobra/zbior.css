@@ -1,0 +1,115 @@
+h4
+{
+	text-align: center;
+}
+.galeria-container
+{
+	float: left;
+	display: inline-block;
+	margin: auto;
+}
+.button
+{
+	position: relative;
+	padding: 5px 20px;
+  margin: 10px;
+  float: left;
+	border-radius: 10%;
+	font-size: 20px;
+	background-color: #9a9a9a;
+	color:	#FFFFF7;
+	text-decoration: none;
+	-webkit-transition: all 0.1s;
+	-o-transition: all 0.1s;
+	transition: all 0.1s;
+}
+.button:active
+{
+	-webkit-transform: translate(0px,2px);
+	    -ms-transform: translate(0px,2px);
+	        transform: translate(0px,2px);
+	border-bottom: 2px red solid;
+}
+.galeria
+{
+	width: 200px;
+height: 200px;
+padding: 7px;
+margin:10px 0px 0px 10px;
+-webkit-transition: -webkit-box-shadow 3s;
+transition: -webkit-box-shadow 3s;
+-o-transition: box-shadow 3s;
+transition: box-shadow 3s;
+transition: box-shadow 3s, -webkit-box-shadow 3s;
+-webkit-transition: -webkit-transform 0.5s;
+transition: -webkit-transform 0.5s;
+-o-transition: transform 0.5s;
+transition: transform 0.5s;
+transition: transform 0.5s, -webkit-transform 0.5s;
+}
+.galeria:hover
+{
+	-webkit-box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+	        box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.galeria:active
+{
+	position: absolute;
+left:450px;
+top:400px;
+-webkit-transform: scale(3, 3);
+    -ms-transform: scale(3, 3);
+        transform: scale(3, 3);
+}
+.opis
+{ 
+	min-height: 300px;
+	font-family: 'Slabo 27px', serif;	
+	text-align: justify;
+	margin:15px 10px;
+}
+.rpg-galeria
+{
+	float: left;
+	width: 320px;
+}
+.rpg-zdjecia
+{
+	z-index: 6;
+width: 125px;
+height: 125px;
+padding: 7px;
+margin:10px 0px 0px 10px;
+-webkit-transition: -webkit-box-shadow 3s;
+transition: -webkit-box-shadow 3s;
+-o-transition: box-shadow 3s;
+transition: box-shadow 3s;
+transition: box-shadow 3s, -webkit-box-shadow 3s;
+-webkit-transition: -webkit-transform 0.5s;
+transition: -webkit-transform 0.5s;
+-o-transition: transform 0.5s;
+transition: transform 0.5s;
+transition: transform 0.5s, -webkit-transform 0.5s;
+}
+.rpg-zdjecia:hover
+{
+	-webkit-box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+	        box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.rpg-zdjecia:active
+{
+	position: fixed;
+left:550px;
+top:400px;
+-webkit-transform: scale(4, 4);
+    -ms-transform: scale(4, 4);
+        transform: scale(4, 4);
+}
+td
+{
+	background-color: #898E8C;
+}
+img[src="grafiki/Mapa_orteliusa.jpg"]
+{
+	width:700px;
+}

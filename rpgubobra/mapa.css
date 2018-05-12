@@ -1,0 +1,75 @@
+img[src="grafiki/mapa_orteliusa.jpg"]
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1920px;
+	height: 1102px;
+}
+span
+{
+	font-weight: bold;
+	display: none;
+}
+#oboz
+{
+	left: 1251px;
+	top:  464px;
+}
+#targ
+{
+		left: 1175px;
+	top: 395px;
+}
+#gornicy
+{
+	left: 1144px;
+	top: 471px;
+}
+#miasto
+{
+	left: 1201px;
+	top: 434px;
+}
+#las
+{
+	left: 1170px;
+	top: 500px;
+}
+#podroz
+{
+	left: 361px;
+	top: 544px;
+}
+
+#novigrad
+{
+	left: 305px;
+	top: 488px;
+}
+
+#oxtenfurt
+{
+	left: 370px;
+	top: 502px;
+	width: 70px;
+}
+div
+{
+	opacity: 10%;
+	z-index: 2;
+	width: 60px;
+	height:25px;
+	position: absolute;
+	transition: all 1s;
+}
+div:hover
+{
+	opacity: 90%;
+		background-color: white;
+		border: 2px solid green;
+}
+div:hover span
+{
+	display: block;
+}

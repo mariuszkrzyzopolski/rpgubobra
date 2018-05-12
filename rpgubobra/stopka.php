@@ -1,0 +1,1 @@
+<div id="footer"><!-- wycieta reklama od spolecznosci --></div>

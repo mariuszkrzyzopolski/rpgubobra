@@ -1,0 +1,57 @@
+thead:first-child tr td
+{
+	text-align: center;
+}
+table
+{
+	width: 100%;
+}
+span
+{
+	background-color: #667292;
+	color: white;
+}
+input
+{
+	width: 100%;
+}
+td
+{
+	background-color: #667292;
+}
+.pokazywanie
+{
+	margin-top: 20px;
+	float: left;
+	width: 40%;
+}
+.wiersz
+{
+	background-color:#8d9db6;
+}
+.punkty
+{
+	border: 1px solid #8d9db6;
+	width: 20%;
+	float: left;
+	margin: 5px;
+	text-align: center;
+}
+.punkty>p
+{
+	background-color: #667292;
+	color: white;
+	 text-shadow: 2px 1px black
+	}
+input[type="submit"]
+{
+	color:#c8c3cc;
+	border: 2px solid #563f46;
+	background-color: #484f4f;
+}
+input[type="submit"]:hover
+{
+	color:#484f4f;
+	border: 2px solid #563f46;
+	background-color: #c8c3cc;
+}
